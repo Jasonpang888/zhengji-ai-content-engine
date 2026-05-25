@@ -1,0 +1,27 @@
+{
+  "name": "zhengji-ai-content-engine",
+  "version": "1.0.0",
+  "description": "AI trilingual social content and image generation engine for Zhengji Wellness.",
+  "main": "src/content-engine.js",
+  "scripts": {
+    "start": "node src/content-engine.js",
+    "test": "node --test",
+    "demo:copy": "node src/content-engine.js --no-image"
+  },
+  "keywords": [
+    "openai",
+    "social-media",
+    "clinic",
+    "zhengji-wellness",
+    "content-engine"
+  ],
+  "author": "Zhengji Wellness",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "latest",
+    "openai": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
